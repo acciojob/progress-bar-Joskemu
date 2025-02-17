@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Progress Bar</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="progress-bar">
+    <div class="circle-container">
+      <div id="circle-1" class="circle active"></div>
+      <div id="circle-2" class="circle"></div>
+      <div id="circle-3" class="circle"></div>
+      <div id="circle-4" class="circle"></div>
+      <div id="circle-5" class="circle"></div>
+    </div>
+    <div class="progress-line"></div>
+  </div>
+  <div class="controls">
+    <button id="prev" disabled>Previous</button>
+    <button id="next">Next</button>
+  </div>
 
+  <script src="script.js"></script>
 </body>
-
 </html>
